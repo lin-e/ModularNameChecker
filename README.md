@@ -1,10 +1,6 @@
 # ModularNameChecker
 Easily expandable username availability checker
 # Usage
-Referencing
-```
-using ModularNameChecker;
-```
 Example code for simple usage in C# Console
 ```
 accountChecker newChecker = new accountChecker(Console.ReadLine()); // Declares a new checker with the specified name
