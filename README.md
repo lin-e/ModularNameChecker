@@ -2,7 +2,7 @@
 Easily expandable username availability checker
 # Usage
 Example code for simple usage in C# Console
-```
+```C#
 accountChecker newChecker = new accountChecker(Console.ReadLine()); // Declares a new checker with the specified name
 foreach (Func<string> singleModule in newChecker.checkModules) // Iterates for each module
 {
@@ -14,7 +14,7 @@ foreach (Func<string> singleModule in newChecker.checkModules) // Iterates for e
 }
 ```
 Adding a (VERY) simple module
-```
+```C#
 // Add this to the 'Modules' region of the accountChecker class
 public string Foobar() // Name of module
 {
